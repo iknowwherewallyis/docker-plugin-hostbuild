@@ -3,6 +3,6 @@ node {
 
     stage('Build image') {
         sh "hostname"
-        app = docker.build("getintodevops/hellonode")
+        docker.run("hello-world")
     }
 }
