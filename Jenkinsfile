@@ -3,6 +3,6 @@ node {
 
     stage('Build image') {
         sh "hostname"
-        docker.run("hello-world")
+        docker.run("ccthub/jenkins:1.0")
     }
 }
